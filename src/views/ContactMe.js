@@ -8,7 +8,7 @@ const ContactMe = () => {
                 <p>Développeur Web Junior Javascript</p>
                 <div className='contactCard_info'>
                     <img src='/images/email_icon.png'/>
-                    <div><a href='mailto:joel.razafinjatovo@epitech.eu'>joel.razafinjatovo@epitech.eu</a></div>
+                    <div><a href='mailto:raza.joel.dev@gmail.com'>raza.joel.dev@gmail.com</a></div>
                 </div>
                 <div className='contactCard_info'>
                     <img src='/images/phone_icon.png'/>
