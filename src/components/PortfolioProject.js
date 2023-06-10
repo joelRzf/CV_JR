@@ -50,19 +50,12 @@ const PortfolioProject = (props) => {
 
                     {projectData.specs.map((spec, index) => <p key={index}>{spec}</p>)}
 
-                    {/* <h4><a href={projectData.github.front} target="_blank" className='github' rel="noreferrer">Github Front-End</a></h4> */}
-
-                    {/* {projectData.github.back &&
-                        <h4><a href={projectData.github.back} target="_blank" className='github' rel="noreferrer"> Github Back-End</a></h4>
-                    } */}
-
                     <h4>Repositories</h4>
                     {
                         projectData.repositories && projectData.repositories.map((repo, index) => {
                             const hrefValue = Object.values(repo)[0]
                             return (
                                 <p key={index}>{Object.keys(repo)[0]}: <a href={hrefValue} target="_blank" rel="noreferrer" style={{color: 'blue'}}>{hrefValue}</a></p>
-                                // <p>tata <a href={hrefValue}>tata</a></p>
                             )
                         })
                     }
